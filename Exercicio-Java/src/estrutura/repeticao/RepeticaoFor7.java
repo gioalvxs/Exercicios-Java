@@ -24,5 +24,6 @@ public class RepeticaoFor7 {
             System.out.printf("%d %d %d%n", primeiro, segundo, terceiro);
 
         }
+        input.close();
     }
 }
