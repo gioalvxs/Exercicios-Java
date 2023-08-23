@@ -1,17 +1,17 @@
 package aplication;
 
-import entities.Studant;
+import entities.Student;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ProgramStudant {
+public class ProgramStudent {
     public static void main(String[] args){
 
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
 
-        Studant studant = new Studant();
+        Student studant = new Student();
 
         System.out.println("NAME: ");
         studant.name = input.nextLine();

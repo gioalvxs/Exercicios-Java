@@ -1,14 +1,12 @@
 package entities;
 
-public class Studant {
+public class Student {
 
    public String name;
    public double grade1;
    public double grade2;
    public double grade3;
-
    public double add;
-
    public double miss;
 
    public double avareges() {
@@ -18,7 +16,8 @@ public class Studant {
    }
 
    public double missingPoint() {
-     return miss = 60 - add;
+
+      return miss = 60 - add;
    }
 
    public  String toString() {

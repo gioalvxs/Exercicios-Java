@@ -13,7 +13,7 @@ public class RepeticaoFor2 {
         System.out.println("Informe um número: ");
         n = input.nextInt();
 
-        for(int i = 0; i < n; i++){
+        for(int i = 0, j = 0; i < n; i++){
             System.out.printf("informe mais números: ");
            int x = input.nextInt();
 
