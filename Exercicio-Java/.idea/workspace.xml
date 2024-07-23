@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4238f389-b4c8-4430-9a46-2728f70a5988" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/vectors/Aprovados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vectors/DadosPessoas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vectors/MaisVelho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/ProgramRent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Rent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +56,7 @@
     "Application.Negativos.executor": "Run",
     "Application.Pares.executor": "Run",
     "Application.Program.executor": "Run",
+    "Application.ProgramRent.executor": "Run",
     "Application.ProgramStudent.executor": "Run",
     "Application.RepeticaoFor1.executor": "Run",
     "Application.RepeticaoWhile1.executor": "Run",
@@ -76,20 +75,7 @@
     "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DadosPessoas">
-    <configuration name="AbaixoMedia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vectors.AbaixoMedia" />
-      <module name="Exercicios-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vectors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ProgramRent">
     <configuration name="Aprovados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vectors.Aprovados" />
       <module name="Exercicios-Java" />
@@ -142,13 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProgramRent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.ProgramRent" />
+      <module name="Exercicios-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProgramRent" />
         <item itemvalue="Application.DadosPessoas" />
         <item itemvalue="Application.Aprovados" />
         <item itemvalue="Application.MaisVelho" />
         <item itemvalue="Application.MediaPares" />
-        <item itemvalue="Application.AbaixoMedia" />
       </list>
     </recent_temporary>
   </component>
